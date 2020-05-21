@@ -1,0 +1,57 @@
+/* css style classes for lattitude site */
+
+.summary {
+    color: white;
+    font-size: 18px;
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+    margin: 12px;
+    background-color: darkblue;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.summary_image {
+    margin: 18px;
+    width: 325px;
+    height: 250px;
+    display: inline-block;
+}
+
+.comparison_image {
+    margin: 18px;
+    width: 400px;
+    height: 325px;
+    display: inline-block;
+}
+
+.divider { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    color: white;
+}
+
+@media(max-width: 992px) {
+.visualization {
+    width: 90% !important;
+    height: 90% !important;
+    }
+.navbar {
+    background-color: red !important;
+    }
+}
+
+#data {
+    background-color: white !important;
+    color: black !important;
+}
+
+tr:hover{
+    background-color: red !important;
+}
